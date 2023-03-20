@@ -36,7 +36,6 @@ async fn main() -> Result<(), anyhow::Error> {
         )
         .hook("htlc_accepted", htlc_handler)
         .subscribe("block_added", block_added)
-        .dynamic()
         .configure()
         .await?
     {
