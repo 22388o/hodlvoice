@@ -7,10 +7,10 @@ Currently hodlvoice depends on an unmerged pull request for cln-plugin: https://
 ./lightning/plugins
 ./hodlvoice
 ```
-then run `cargo build --release` in the hodlvoice folder with an up-to-date rust version: https://rustup.rs/. The plugin will be here: `./hodlvoice/target/release/hodlvoice`
+then run `cargo build --release` in the hodlvoice folder with an up-to-date rust version: [rustup](https://rustup.rs/). The plugin will be here: `./hodlvoice/target/release/hodlvoice`
 
 ## Installation
-Build the plugin or get the binaries from the release page and 
+Build the plugin or get the binary (for linux-amd64) from the release page and 
 put this in your lightning config:
 ```
 plugin=/path/to/hodlvoice
